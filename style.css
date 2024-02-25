@@ -1,0 +1,108 @@
+body {
+    background-image: url("food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Josefin Sans;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px) ; 
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 35px;
+    font-size: 30px;
+    font-weight:700;
+    backdrop-filter: blur(1px); 
+    background-color: rgba(255, 255, 255, 0.3); 
+    padding: 10px; 
+    
+}
+  
+
+
+.container{
+    display:flex;
+    flex-direction: column;
+    height: 500px;
+    width: 420px;
+    border-radius: 25px;
+    align-items: center;
+    margin: auto; 
+    background-color:rgba(1, 1, 1, 0.5);
+    color:white;
+    margin-top: 60px; 
+    font-size:20px; 
+    z-index: -1;
+    border: 4px solid orange;
+
+} 
+.container h1{
+    margin:60px;
+    margin-bottom: 0px;
+    color:white;
+    font-size: 3rem;
+}
+h4{
+    position:relative;
+    bottom:15px;
+}
+.input input{
+    display:block;
+    padding:10px;
+    margin-top:5px;
+    margin:10px;
+    width:120%;
+    border-radius:15px;
+    background-color:rgba(3, 3, 3, 0.5);
+    border:1px solid orange;
+    color:white;
+}
+input:hover{
+    cursor:pointer;
+    background-color:rgb(248, 180, 62);
+    color:black;
+}
+.input label{
+    padding:13px;
+}
+.input{
+    font-size:20px;
+    margin-right:55px
+}
+.button button{
+   background-color:#f98c08;
+   padding:10px;
+   width:105%;
+   position:relative;
+   left:5px;
+   top:30px;
+   color:white;
+   border-radius: 15px; 
+   border:none;
+   transition: background-color 0.3s ease;
+}
+button:hover{
+    cursor:pointer;
+    background-color:chocolate;
+    color:white;
+}
+.radio{
+  position:relative;
+  top:5px;
+}
+.reg{
+    position:relative;
+    top:25px;
+    left:5px;
+}
+.reglink{
+    font-weight:600;
+}
+
